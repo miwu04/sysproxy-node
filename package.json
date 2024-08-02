@@ -1,0 +1,40 @@
+{
+  "name": "@mihomo-party/sysproxy",
+  "version": "1.0.1",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "sysproxy",
+    "triples": {
+      "additional": [
+        "aarch64-apple-darwin",
+        "aarch64-unknown-linux-gnu",
+        "aarch64-pc-windows-msvc",
+        "i686-pc-windows-msvc"
+      ]
+    }
+  },
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.4",
+    "ava": "^6.0.1"
+  },
+  "ava": {
+    "timeout": "3m"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "ava",
+    "universal": "napi universal",
+    "version": "napi version"
+  },
+  "packageManager": "yarn@4.3.1",
+  "repository": "https://github.com/pompurin404/sysproxy-rs",
+  "description": "Use Node.js to modify system proxy settings, support Windows, MacOS, Linux (Gnome/KDE)"
+}
