@@ -1,0 +1,23 @@
+{
+  "name": "@mihomo-party/sysproxy-linux-arm64-gnu",
+  "version": "2.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "sysproxy.linux-arm64-gnu.node",
+  "files": [
+    "sysproxy.linux-arm64-gnu.node"
+  ],
+  "description": "Use Node.js to modify system proxy settings, support Windows, MacOS, Linux (Gnome/KDE)",
+  "license": "GPL-3.0-only",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/pompurin404/sysproxy-rs",
+  "libc": [
+    "glibc"
+  ]
+}
