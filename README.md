@@ -1,6 +1,6 @@
 # `@mihomo-party/sysproxy`
 
-![https://github.com/pompurin404/sysproxy-rs/actions](https://github.com/pompurin404/sysproxy-rs/workflows/CI/badge.svg)
+![https://github.com/pompurin404/sysproxy-node/actions](https://github.com/pompurin404/sysproxy-node/workflows/CI/badge.svg)
 
 ## Install this test package
 

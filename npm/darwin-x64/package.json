@@ -16,5 +16,5 @@
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/pompurin404/sysproxy-rs"
+  "repository": "https://github.com/pompurin404/sysproxy-node"
 }

@@ -35,6 +35,6 @@
     "version": "napi version"
   },
   "packageManager": "yarn@4.3.1",
-  "repository": "https://github.com/pompurin404/sysproxy-rs",
+  "repository": "https://github.com/pompurin404/sysproxy-node",
   "description": "Use Node.js to modify system proxy settings, support Windows, MacOS, Linux (Gnome/KDE)"
 }

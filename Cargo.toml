@@ -1,6 +1,6 @@
 [package]
 edition = "2021"
-name = "sysproxy-rs"
+name = "sysproxy-node"
 version = "0.0.0"
 
 [lib]
@@ -10,7 +10,7 @@ crate-type = ["cdylib"]
 # Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
 napi = { version = "2.12.2", default-features = false, features = ["napi4"] }
 napi-derive = "2.12.2"
-sysproxy = { git = "https://github.com/zzzgydi/sysproxy-rs", version = "0.3.0" }
+sysproxy = { git = "https://github.com/pompurin404/sysproxy-rs" }
 
 [build-dependencies]
 napi-build = "2.0.1"
