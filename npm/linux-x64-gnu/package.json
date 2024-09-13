@@ -16,7 +16,7 @@
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/pompurin404/sysproxy-node",
+  "repository": "https://github.com/mihomo-party-org/sysproxy-node",
   "libc": [
     "glibc"
   ]

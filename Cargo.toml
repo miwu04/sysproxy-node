@@ -8,9 +8,9 @@ crate-type = ["cdylib"]
 
 [dependencies]
 # Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
-napi = { version = "2.12.2", default-features = false, features = ["napi4"] }
-napi-derive = "2.12.2"
-sysproxy = { git = "https://github.com/pompurin404/sysproxy-rs" }
+napi = { version = "2.16.10", default-features = false, features = ["napi4"] }
+napi-derive = "2.16.12"
+sysproxy = { git = "https://github.com/mihomo-party-org/sysproxy-rs" }
 
 [build-dependencies]
 napi-build = "2.0.1"
