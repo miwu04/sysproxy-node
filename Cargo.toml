@@ -13,7 +13,7 @@ napi-derive = "2.16.13"
 sysproxy = { git = "https://github.com/mihomo-party-org/sysproxy-rs" }
 
 [build-dependencies]
-napi-build = "2.1.4"
+napi-build = "2.0.1"
 
 [profile.release]
 lto = true
