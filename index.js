@@ -295,6 +295,35 @@ switch (platform) {
           loadError = e
         }
         break
+      case 'loong64':
+        if (isMusl()) {
+          localFileExisted = existsSync(
+          join(__dirname, 'sysproxy.linux-loongarch64-musl.node')
+          )
+          try {
+            if (localFileExisted) {
+              nativeBinding = require('./sysproxy.linux-loongarch64-musl.node')
+            } else {
+              nativeBinding = require('@mihomo-party/sysproxy-linux-loongarch64-musl')
+            }
+          } catch (e) {
+            loadError = e
+          }
+        } else {
+          localFileExisted = existsSync(
+            join(__dirname, 'sysproxy.linux-loongarch64-gnu.node')
+          )
+          try {
+            if (localFileExisted) {
+              nativeBinding = require('./sysproxy.linux-loongarch64-gnu.node')
+            } else {
+              nativeBinding = require('@mihomo-party/sysproxy-linux-loongarch64-gnu')
+            }
+          } catch (e) {
+            loadError = e
+          }
+        }
+        break
       default:
         throw new Error(`Unsupported architecture on Linux: ${arch}`)
     }
