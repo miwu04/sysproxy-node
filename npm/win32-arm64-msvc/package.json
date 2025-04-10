@@ -1,6 +1,6 @@
 {
   "name": "@mihomo-party/sysproxy-win32-arm64-msvc",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "os": [
     "win32"
   ],
