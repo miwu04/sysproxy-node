@@ -304,7 +304,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./sysproxy.linux-loongarch64-musl.node')
             } else {
-              nativeBinding = require('@mihomo-party/sysproxy-linux-loongarch64-musl')
+              nativeBinding = require('@mihomo-party/sysproxy-linux-loong64-musl')
             }
           } catch (e) {
             loadError = e
@@ -317,7 +317,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./sysproxy.linux-loongarch64-gnu.node')
             } else {
-              nativeBinding = require('@mihomo-party/sysproxy-linux-loongarch64-gnu')
+              nativeBinding = require('@mihomo-party/sysproxy-linux-loong64-gnu')
             }
           } catch (e) {
             loadError = e
