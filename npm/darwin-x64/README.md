@@ -1,3 +1,3 @@
-# `@mihomo-party/sysproxy-darwin-x64`
+# `@mihomo-party-loongarch64/sysproxy-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `@mihomo-party/sysproxy`
+This is the **x86_64-apple-darwin** binary for `@mihomo-party-loongarch64/sysproxy`

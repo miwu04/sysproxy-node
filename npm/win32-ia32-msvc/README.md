@@ -1,3 +1,3 @@
-# `@mihomo-party/sysproxy-win32-ia32-msvc`
+# `@mihomo-party-loongarch64/sysproxy-win32-ia32-msvc`
 
-This is the **i686-pc-windows-msvc** binary for `@mihomo-party/sysproxy`
+This is the **i686-pc-windows-msvc** binary for `@mihomo-party-loongarch64/sysproxy`

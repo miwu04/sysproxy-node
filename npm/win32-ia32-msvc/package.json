@@ -1,5 +1,5 @@
 {
-  "name": "@mihomo-party/sysproxy-win32-ia32-msvc",
+  "name": "@mihomo-party-loongarch64/sysproxy-win32-ia32-msvc",
   "version": "2.0.9",
   "os": [
     "win32"
@@ -16,5 +16,5 @@
   "engines": {
     "node": ">= 10"
   },
-  "repository": "https://github.com/mihomo-party-org/sysproxy-node"
+  "repository": "https://github.com/miwu04/sysproxy-node"
 }
