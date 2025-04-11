@@ -1,6 +1,6 @@
 {
   "name": "@mihomo-party-loongarch64/sysproxy-linux-x64-gnu",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "os": [
     "linux"
   ],

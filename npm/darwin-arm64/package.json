@@ -1,6 +1,6 @@
 {
   "name": "@mihomo-party-loongarch64/sysproxy-darwin-arm64",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "os": [
     "darwin"
   ],
